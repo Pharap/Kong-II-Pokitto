@@ -46,7 +46,7 @@ int main() {
 
     // Kick off the random number generator ..
     
-    srand(time(0));
+    PC::initRandom();
 
 
 
