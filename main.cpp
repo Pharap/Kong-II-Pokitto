@@ -22,7 +22,7 @@ int main() {
 
     // Initialise pokitto ..
 
-    cookie.begin("KONGII", sizeof(cookie), (char*)&cookie);
+    cookie.begin("KONGII", cookie);
 
     PC::begin();
     PD::loadRGBPalette(palettePico);   
