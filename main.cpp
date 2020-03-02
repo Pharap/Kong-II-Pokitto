@@ -61,7 +61,7 @@ int main() {
 
     // Play game!
 
-    game.setup(&cookie);
+    game.setup(cookie);
 
     while (PC::isRunning()) {
     

@@ -15,7 +15,7 @@ class Game {
     
     public:
 
-        void setup(GameCookie *cookie);
+        void setup(GameCookie &cookie);
         void loop(void);
 
         void splashScreen_Activate();

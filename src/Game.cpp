@@ -8,9 +8,9 @@ using PD = Pokitto::Display;
 using PS = Pokitto::Sound;
 
 
-void Game::setup(GameCookie *cookie) { 
+void Game::setup(GameCookie &cookie) { 
     
-    this->cookie = cookie;
+    this->cookie = &cookie;
     	
 }
 
